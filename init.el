@@ -61,6 +61,8 @@
 (require 'starter-kit-perl)
 (require 'starter-kit-ruby)
 (require 'starter-kit-js)
+(require 'stat-kit-org)
+(require 'stat-kit-auctex)
 
 (regen-autoloads)
 (load custom-file 'noerror)
