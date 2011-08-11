@@ -2,6 +2,7 @@
 (color-theme-zenburn)
 (global-set-key (kbd "<f3>") 'comment-region)
 (global-set-key (kbd "<f4>") 'uncomment-region)
+(global-set-key (kbd "<f5>") 'indent-region)
 (global-set-key (kbd "<f11>") 'toggle-fullscreen)
 
 ;; keybinding to start magit gui (for working with git repos)
@@ -19,4 +20,5 @@
            (if dedicated "no longer " "")
            (buffer-name))))
 (global-set-key (kbd "C-x w") 'toggle-current-window-dedication)
+
 
