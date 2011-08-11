@@ -21,11 +21,11 @@
 (add-hook 'LaTeX-mode-hook 'turn-on-auto-fill)
 (add-hook 'LaTeX-mode-hook (lambda () (abbrev-mode +1)))
 
-;; Use F5 to evaluate chunk in .Rnw file
-(defun my-ess-hook ()
-   "Add my keybindings to ESS mode."
-   (local-set-key (kbd "<f5>") 'ess-eval-chunk))
- (add-hook 'ess-mode-hook 'my-ess-hook) 
+;; Use F6 to evaluate chunk in .Rnw file
+;; (defun my-ess-hook ()
+;;    "Add my keybindings to ESS mode."
+;;    (local-set-key (kbd "<f6>") 'ess-eval-chunk))
+;;  (add-hook 'ess-mode-hook 'my-ess-hook) 
 
 
 ;; following is for AucTex, adds Sweave commands to 'Command' menu
